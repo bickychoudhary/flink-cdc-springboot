@@ -1,25 +1,25 @@
 topic: apmt.terminalOperations.apistore.test  #Overwrite with correct topic
 kafkabootstrapservers: pp-we-1-dedicated-apmt-kafka-bootstrap.retina.maersk.io:443
 kafkaUsername: pp.apmt-push-notify.v1
-kafkaPassword: 4y06xTwWix7yceomzJR9SVoiEsEreVzq
+kafkaPassword: ****
 kafkaProducerUserName: pp.apmt-push-notify.v1
-kafkaProducerPassword: 4y06xTwWix7yceomzJR9SVoiEsEreVzq
+kafkaProducerPassword: *****
 kafkaConsumerGroup2: apmt.terminalOperations.apistore
-kafkaSchemaRegistryUrl: https://pp-we-1-dedicated-apmt-kafka-sr.retina.maersk.io/
+kafkaSchemaRegistryUrl:******
 kafkaConsumerSchemaRegistryUrl: https://pp-we-1-dedicated-apmt-kafka-sr.retina.maersk.io/
 kafkaConsumerSchemaRegistryApiKey: changeit
 kafkaConsumerSchemaRegistryApiSecret: changeit
 ssl-keystore-location: /Users/vicky/Documents/CDH-Secrets/apmt-keystore 1.jks
-ssl-keystore-password: ljJHdw58qsXWD0c7s8atasjkc
+ssl-keystore-password: ******
 ssl-truststore-location: /Users/vicky/Documents/CDH-Secrets/apmt-truststore 1.jks
-ssl-truststore-password: ljJHdw58qsXWD0c7s8atasjkc
+ssl-truststore-password: ******
 kafkaProducerLoginModule: "org.apache.kafka.common.security.scram.ScramLoginModule"
 kafkaProducerSecurityProtocol: "SASL_SSL"
 kafkaProducerSaSLMechanism: "SCRAM-SHA-512"
 SPRING_CONFIG_IMPORT: configserver:http://config-server-v1
 kafkaSaslJaasConfig: org.apache.kafka.common.security.scram.ScramLoginModule required  username="pp.apmt-push-notify.v1" password="4y06xTwWix7yceomzJR9SVoiEsEreVzq";
-keystorePassword: ljJHdw58qsXWD0c7s8atasjkc
-truststorePassword: ljJHdw58qsXWD0c7s8atasjkc
+keystorePassword: ******
+truststorePassword: ******
 kafkaSaslMechanism: SCRAM-SHA-512
 
 
